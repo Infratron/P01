@@ -10,7 +10,7 @@
 
   <!-- barra di navigazione -->
   <header>
-    <nav class="navbar navbar-expand-lg bg-info sticky-top">
+    <nav class="navbar navbar-expand-lg bg-info fixed-top">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
           <img src="https://pngimage.net/wp-content/uploads/2018/05/demo-logo-png-7.png" class="logo-nav-custom">
@@ -38,8 +38,143 @@
       </div>
     </nav>
   </header>
-
   <!-- fine barra di navigazione -->
+
+<!-- inizio sezione main card -->
+  <main class="background-mio container-fluid">
+  <section class="container-fluid d-flex mt-5">
+    <div class="row">
+      <div class="col-12 col-md-6 col-lg-3 mx-auto">
+        <div class="card mt-5 mb-3">
+          <img src="./img/logo.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam impedit nihil rerum aspernatur modi iste labore culpa architecto, suscipit magni quidem voluptates animi totam in quibusdam vero maiores et voluptas!</p>
+          </div>
+         </div>
+         </div>
+         <div class="col-12 col-md-6 col-lg-3 mx-auto">
+          <div class="card mt-5 mb-3">
+            <img src="./img/logo.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam impedit nihil rerum aspernatur modi iste labore culpa architecto, suscipit magni quidem voluptates animi totam in quibusdam vero maiores et voluptas!</p>
+            </div>
+           </div>
+           </div>
+           <div class="col-12 col-md-6 col-lg-3 mx-auto">
+            <div class="card mt-5 mb-3">
+              <img src="./img/logo.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam impedit nihil rerum aspernatur modi iste labore culpa architecto, suscipit magni quidem voluptates animi totam in quibusdam vero maiores et voluptas!</p>
+              </div>
+             </div>
+             </div>
+    </div>
+  </section>
+</main>
+<!-- fine sezione card main -->
+
+<section class="container align-content-center mt-4">
+  <div class="row d-flex">
+    <div class="col-12 col-lg-6">
+      <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              Accordion Item #1
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              Accordion Item #2
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              Accordion Item #3
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card mb-3" style="max-width: 540px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="./img/logo.png" class="img-fluid rounded-start" alt="...">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="carouselExampleCaptions" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./img/arte-natura-massimo-marchioro (1).jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>First slide label</h5>
+          <p>Some representative placeholder content for the first slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./img/download (1).jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Second slide label</h5>
+          <p>Some representative placeholder content for the second slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./img/natura-alberi.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Third slide label</h5>
+          <p>Some representative placeholder content for the third slide.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+  <footer class="d-flex container-fluid justify-content-center footer-mio mt-3">
+    <div class="form-floating mt-5 mb-5">
+      <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"></textarea>
+      <label for="floatingTextarea2">Lascia un commento</label>
+    </div>
+  </footer>
+
   <body>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>

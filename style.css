@@ -1,3 +1,17 @@
 .logo-nav-custom{
     width: 150px
 }
+
+.background-mio{
+    background: linear-gradient(#852aee, #000000);
+}
+
+.footer-mio{
+    background-color: #000000;
+}
+
+.form-control
+{
+    height: 300px;
+    width: 300px;
+}
