@@ -2,13 +2,6 @@
     width: 150px
 }
 
-.background-mio{
-    background: linear-gradient(#852aee, #000000);
-}
-
-.footer-mio{
-    background-color: #000000;
-}
 
 .form-control
 {
@@ -20,3 +13,39 @@
     font-weight: bold;
     font-style: italic;
 }
+
+body {
+    background: #2a2e32;
+  }
+  
+  .text-small {
+    font-size: 0.9rem;
+  }
+  
+  a {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+  }
+  
+  a:hover, a:focus {
+    text-decoration: none;
+  }
+  
+  .form-control {
+    background: #212529;
+    border-color: #545454;
+  }
+  
+  .form-control:focus {
+    background: #212529;
+  }
+  
+  footer {
+    background: #212529;
+  }
+  
+    body, html {
+      height: 100%;
+    }
+
